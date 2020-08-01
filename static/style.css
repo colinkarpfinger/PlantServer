@@ -1,0 +1,135 @@
+/*body {
+    background-image:    url("/static/bg.jpg");
+    background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-position: center center;            
+}
+*/ 
+
+h2 {
+	color: 		#837258; 
+	font-family: 	"Arial Rounded MT Bold";
+       	font-size: 	1.2em;	
+	text-align:	left;
+
+}
+h3 {
+	color: 		#837258; 
+	font-family: 	"Arial Rounded MT Bold";
+       	font-size: 	1em;	
+	text-align:	left;
+}
+p {
+	color: 		#837258; 
+	font-family: 	"Arial Rounded MT Bold";
+       	font-size: 	1.2em;	
+	text-align:	left;
+
+}
+.container{
+
+	position:	relative;
+	text-align:	center;
+	color:		white;
+}
+
+.fredbubble{
+	position: 	absolute;
+	top: 		10%;
+	left:		35%;
+	transform:	translate(-50%,-50%);
+	
+
+}
+.pothosbubble{
+	position: 	absolute;
+	top: 		24%;
+	left:		10%;
+	transform:	translate(-50%,-50%);
+
+}
+.herbsbubble{
+	position: 	absolute;
+	top: 		40%;
+	left:		31%;
+	transform:	translate(-50%,-50%);
+
+}
+.treebubble{
+	position: 	absolute;
+	top: 		10%;
+	left:		71%;
+	transform:	translate(-50%,-50%);
+}
+.ampbubble{
+	position: 	absolute;
+	top: 		40%;
+	left:		76%;
+	transform:	translate(-50%,-50%);
+}
+
+
+
+
+.speechbubble{
+	position: 	absolute;
+	top: 		84%;
+	left: 		50%;
+	transform: 	translate(-50%,-50%); 	
+}
+
+.actionbubble{
+	position: 	absolute;
+	top: 		70%;
+	left:		76%;
+	transform: 	translate(-50%,-50%);
+	
+	background:	#feed9f;
+	border-radius: 	60px;
+	padding: 	10px;
+	height: 	110px; 
+	width: 		225px;
+	
+}
+
+
+.bubble a:link{
+	text-decoration: 	none;
+}
+.bubble a:hover{
+	text-decoration: 	underline;
+	text-decoration-color: 	#837258; 
+}
+.backbubble{
+	position: 	absolute;
+	top:		91%;
+	left:		7%;
+	transform:	translate(-50%,-50%);
+
+}
+
+.backbutton{
+	border-radius: 	20px;
+	background: 	#fff9e3;
+	padding: 	10px;
+	color:		#837258;
+}
+
+.plantbutton{
+	border-radius: 	20px;
+	background: 	#00a837;
+	padding: 	10px;
+	height: 	12px; 
+	color:		#fff9e3;
+
+}
+.plantbuttonselected{
+	border-radius: 	20px;
+	background: 	#faaaad;
+	padding: 	10px;
+	height: 	12px; 
+	color:		#fff9e3;
+
+
+}
+

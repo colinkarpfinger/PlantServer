@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+   <head>
+      <title>{{ title }}</title>
+   	<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+   </head>
+
+   <body >
+	  <!--  <div id="bg">
+		   <img src="{{url_for('static', filename='bg.jpg')}}" alt="">
+	  </div> --> 
+
+	  <div class="container">
+		  <img src = "{{ url_for('static', filename='plants-sitting-speech-only.jpg') }}" alt="" style="width:100%;"> 
+		  <div class="bubble">
+		  <div class="speechbubble"> 
+			  <h2>The plants are looking happy today. </h2>
+			  <h2>Which plant would you like to check on?</h2> 
+		  </div>
+		  </div>
+		  <a href="/">
+		  	<div class="backbubble">
+			  	<h2 class="backbutton">Back</h2> 
+		  	</div>
+		  </a>
+		
+		<a href="/plants/detail?plant_name=fred">
+			<div class="fredbubble">
+				<h2 class="plantbutton">Fred</h2> 
+			</div>
+		</a>
+		<a href="/plants/detail?plant_name=pothos">
+			<div class="pothosbubble">
+				<h2 class="plantbutton">Pothos</h2> 
+			</div>
+		</a>
+ 
+		<a href="/plants/detail?plant_name=herbs">
+			<div class="herbsbubble">
+				<h2 class="plantbutton">Herbs</h2> 
+			</div>
+		</a>
+		<a href="/plants/detail?plant_name=tree">
+			<div class="treebubble">
+				<h2 class="plantbutton">Tree</h2> 
+			</div>
+		</a>
+		<a href="/plants/detail?plant_name=amp"><div class="ampbubble">
+				<h2 class="plantbutton">Amp</h2> 
+			</div>
+		</a>
+
+	  </div>
+
+	  
+	  
+   
+   </body>
+</html>
+
+

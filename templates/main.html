@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+   <head>
+      <title>{{ title }}</title>
+   	<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+   </head>
+
+   <body >
+	  <!--  <div id="bg">
+		   <img src="{{url_for('static', filename='bg.jpg')}}" alt="">
+	  </div> --> 
+
+	  <div class="container">
+		  <div class="bubble">
+		  <img src = "{{ url_for('static', filename='colin-n-hoopie-speechbubble-actions.jpg') }}" alt="" style="width:100%;"> 
+		  <div class="speechbubble"> 
+			  <h2>Hi! I'm feeling cozy at {{ cpu_temp }} &#176;C and {{ram_perc_used}}% memory usage.</h2>
+			  <h2>What would you like to do today?</h2> 
+		  </div>
+	  	<div class="actionbubble">
+			<a href="/plants"><h3>Water my plants</h3></a> 
+			<a href="/plants"><h3>Check on my plants</h3></a>
+			<a href="/video"><h3>Take a picture</h3></a> 
+		</div> 
+		  </div> 
+	  </div>
+
+   </body>
+</html>
+
+
